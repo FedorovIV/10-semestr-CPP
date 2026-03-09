@@ -1,5 +1,5 @@
 total 16
-drwxrwxrwx 1 ilya-laptop ilya-laptop  4096 Mar  9  2026 .
+drwxrwxrwx 1 ilya-laptop ilya-laptop  4096 Mar  9 15:38 .
 drwxrwxrwx 1 ilya-laptop ilya-laptop  4096 Mar  9 15:15 ..
--rwxrwxrwx 1 ilya-laptop ilya-laptop 13506 Mar  9  2026 CMakeCache.txt
-drwxrwxrwx 1 ilya-laptop ilya-laptop  4096 Mar  9  2026 CMakeFiles
+-rwxrwxrwx 1 ilya-laptop ilya-laptop 13506 Mar  9 15:16 CMakeCache.txt
+drwxrwxrwx 1 ilya-laptop ilya-laptop  4096 Mar  9 15:38 CMakeFiles

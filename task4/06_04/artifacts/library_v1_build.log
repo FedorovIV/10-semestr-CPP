@@ -1,0 +1,11 @@
+gmake: Warning: File 'Makefile' has modification time 3.7 s in the future
+gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 3.8 s in the future
+gmake[2]: Warning: File 'CMakeFiles/static.dir/flags.make' has modification time 3.5 s in the future
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake[2]: Warning: File 'CMakeFiles/static.dir/flags.make' has modification time 3.5 s in the future
+[ 50%] Building CXX object CMakeFiles/static.dir/source/06.19.cpp.o
+[100%] Linking CXX static library libstatic.a
+gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target static
+gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+gmake: warning:  Clock skew detected.  Your build may be incomplete.

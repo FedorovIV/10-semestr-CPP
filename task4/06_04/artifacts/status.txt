@@ -1,0 +1,4 @@
+library_v1: OK
+library_v2: skipped (Boost 1.83, need >= 1.85.0; set BOOST_ROOT to Boost 1.85+)
+education.sh: completed with possible partial failures (see artifacts/education_build.log)
+directory snapshots: saved
