@@ -1,0 +1,100 @@
+./education.sh: line 2: $'\r': command not found
+./education.sh: line 20: $'\r': command not found
+./education.sh: line 22: $'\r': command not found
+./education.sh: line 44: $'\r': command not found
+./education.sh: line 46: $'\r': command not found
+./education.sh: line 56: $'\r': command not found
+./education.sh: line 58: $'\r': command not found
+./education.sh: line 68: $'\r': command not found
+./education.sh: line 70: $'\r': command not found
+./education.sh: line 82: $'\r': command not found
+./education.sh: line 84: $'\r': command not found
+./education.sh: line 94: $'\r': command not found
+./education.sh: line 96: $'\r': command not found
+./education.sh: line 106: $'\r': command not found
+./education.sh: line 108: $'\r': command not found
+./education.sh: line 122: $'\r': command not found
+./education.sh: line 124: $'\r': command not found
+./education.sh: line 140: $'\r': command not found
+./education.sh: line 142: $'\r': command not found
+./education.sh: line 150: $'\r': command not found
+./education.sh: line 152: $'\r': command not found
+./education.sh: line 154: $'\r': command not found
+./education.sh: line 156: $'\r': command not found
+./education.sh: line 157: cd: $'projects/library_v1\r': No such file or directory
+./education.sh: line 158: $'\r': command not found
+./education.sh: line 159: cd: $'output\r': No such file or directory
+./education.sh: line 160: $'\r': command not found
+CMake Warning:
+  Ignoring extra path from command line:
+
+   ".."
+
+
+CMake Error: The source directory "/mnt/c/Users/ilyaf/OneDrive/Desktop/Учёба/9 семестр/C++" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+./education.sh: line 162: $'\r': command not found
+cp: cannot stat 'libstatic.a': No such file or directory
+./education.sh: line 164: $'\r': command not found
+./education.sh: line 166: $'\r': command not found
+./education.sh: line 167: cd: $'projects/library_v2\r': No such file or directory
+./education.sh: line 168: $'\r': command not found
+./education.sh: line 169: cd: $'output\r': No such file or directory
+./education.sh: line 170: $'\r': command not found
+CMake Warning:
+  Ignoring extra path from command line:
+
+   ".."
+
+
+CMake Error: The source directory "/mnt/c/Users/ilyaf/OneDrive/Desktop/Учёба/9 семестр/C++" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+./education.sh: line 172: $'\r': command not found
+cp: cannot stat 'libshared.so': No such file or directory
+./education.sh: line 174: $'\r': command not found
+./education.sh: line 176: $'\r': command not found
+./education.sh: line 177: cd: $'projects/examples\r': No such file or directory
+./education.sh: line 178: $'\r': command not found
+./education.sh: line 179: cd: $'output\r': No such file or directory
+./education.sh: line 180: $'\r': command not found
+CMake Warning:
+  Ignoring extra path from command line:
+
+   ".."
+
+
+CMake Error: The source directory "/mnt/c/Users/ilyaf/OneDrive/Desktop/Учёба/9 семестр/C++" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+./education.sh: line 182: $'\r': command not found
+./education.sh: line 184: $'\r': command not found
+cp: cannot stat '../../../libraries/libshared.so': No such file or directory
+./education.sh: line 186: $'\r': command not found
+cp: target '.'$'\r': No such file or directory
+./education.sh: line 188: $'\r': command not found
+./education.sh: line 190: $'\r': command not found
+./education.sh: line 192: $'\r': command not found
+cc1plus: fatal error: ../source/06.06.hpp: No such file or directory
+compilation terminated.
+./education.sh: line 194: $'\r': command not found
+cc1plus: fatal error: ../source/06.07.cpp: No such file or directory
+compilation terminated.
+./education.sh: line 196: $'\r': command not found
+rm: cannot remove '../source/06.06.hpp.gch'$'\r': No such file or directory
+./education.sh: line 198: $'\r': command not found
+./education.sh: line 200: $'\r': command not found
+./education.sh: line 202: $'\r': command not found
+cc1plus: fatal error: print: No such file or directory
+compilation terminated.
+./education.sh: line 204: $'\r': command not found
+g++: warning: ../source/06.15.cxx: linker input file unused because linking not done
+g++: error: ../source/06.15.cxx: linker input file not found: No such file or directory
+./education.sh: line 206: $'\r': command not found
+g++: warning: ../source/06.13.cxx: linker input file unused because linking not done
+g++: error: ../source/06.13.cxx: linker input file not found: No such file or directory
+./education.sh: line 208: $'\r': command not found
+g++: warning: ../source/06.14.cxx: linker input file unused because linking not done
+g++: error: ../source/06.14.cxx: linker input file not found: No such file or directory
+./education.sh: line 210: $'\r': command not found
+cc1plus: fatal error: ../source/06.16.cpp: No such file or directory
+compilation terminated.
+./education.sh: line 212: $'\r': command not found

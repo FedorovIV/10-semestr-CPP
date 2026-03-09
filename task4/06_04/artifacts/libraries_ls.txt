@@ -1,0 +1,3 @@
+total 0
+drwxrwxrwx 1 ilya-laptop ilya-laptop 4096 Mar  9  2026 .
+drwxrwxrwx 1 ilya-laptop ilya-laptop 4096 Mar  9  2026 ..
