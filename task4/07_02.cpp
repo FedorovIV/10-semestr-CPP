@@ -198,6 +198,7 @@ void demonstrate_standard_exceptions()
 
 int main()
 {
+	// Sample comment to check git push
     try
     {
         Rational a(1, 2);
