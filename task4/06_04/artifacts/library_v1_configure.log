@@ -4,8 +4,8 @@
 -- Check for working CXX compiler: /usr/bin/g++-14 - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (3.2s)
--- Generating done (0.2s)
+-- Configuring done (4.1s)
+-- Generating done (0.3s)
 CMake Warning:
   Manually-specified variables were not used by the project:
 

@@ -1,8 +1,8 @@
 total 540
-drwxrwxrwx 1 ilya-laptop ilya-laptop   4096 Mar  9  2026 .
-drwxrwxrwx 1 ilya-laptop ilya-laptop   4096 Mar  9 15:44 ..
--rwxrwxrwx 1 ilya-laptop ilya-laptop  13368 Mar  9 15:44 CMakeCache.txt
-drwxrwxrwx 1 ilya-laptop ilya-laptop   4096 Mar  9  2026 CMakeFiles
--rwxrwxrwx 1 ilya-laptop ilya-laptop   5654 Mar  9 15:44 Makefile
--rwxrwxrwx 1 ilya-laptop ilya-laptop   1771 Mar  9 15:44 cmake_install.cmake
--rwxrwxrwx 1 ilya-laptop ilya-laptop 521650 Mar  9  2026 libstatic.a
+drwxrwxrwx 1 ilya-laptop ilya-laptop   4096 Mar 11 11:37 .
+drwxrwxrwx 1 ilya-laptop ilya-laptop   4096 Mar 11 11:37 ..
+-rwxrwxrwx 1 ilya-laptop ilya-laptop  13368 Mar 11 11:37 CMakeCache.txt
+drwxrwxrwx 1 ilya-laptop ilya-laptop   4096 Mar 11 11:37 CMakeFiles
+-rwxrwxrwx 1 ilya-laptop ilya-laptop   5654 Mar 11 11:37 Makefile
+-rwxrwxrwx 1 ilya-laptop ilya-laptop   1771 Mar 11 11:37 cmake_install.cmake
+-rwxrwxrwx 1 ilya-laptop ilya-laptop 521650 Mar 11 11:37 libstatic.a

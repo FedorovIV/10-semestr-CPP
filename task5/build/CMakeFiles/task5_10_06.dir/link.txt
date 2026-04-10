@@ -1,0 +1,1 @@
+/usr/bin/g++-14 -O3 -DNDEBUG CMakeFiles/task5_10_06.dir/10_06.cpp.o -o task5_10_06  /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.83.0 /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0 /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.83.0 

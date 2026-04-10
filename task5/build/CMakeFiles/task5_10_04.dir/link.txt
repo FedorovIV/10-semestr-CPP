@@ -1,0 +1,1 @@
+/usr/bin/g++-14 -O3 -DNDEBUG CMakeFiles/task5_10_04.dir/10_04.cpp.o -o task5_10_04 
