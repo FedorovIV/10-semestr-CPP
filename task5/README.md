@@ -1,8 +1,7 @@
 # Task 5 Solutions
 
 ## Covered Tasks
-- `09.01` to `09.09`
-- `09.10` is empty in the provided PDF, so there is no implementation for it
+- `09.01` to `09.10`
 - `10.01`
 - `10.03` to `10.06`
 - `11.01`

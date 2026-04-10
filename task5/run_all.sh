@@ -16,6 +16,7 @@ cmake --build "${BUILD_DIR}" -j
 "${BUILD_DIR}/task5_09_07"
 "${BUILD_DIR}/task5_09_08"
 "${BUILD_DIR}/task5_09_09" --benchmark_min_time=0.01s --benchmark_repetitions=1
+"${BUILD_DIR}/task5_09_10"
 "${BUILD_DIR}/task5_10_01"
 "${BUILD_DIR}/task5_10_03"
 "${BUILD_DIR}/task5_10_04"

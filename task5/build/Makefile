@@ -279,6 +279,19 @@ task5_09_09/fast:
 .PHONY : task5_09_09/fast
 
 #=============================================================================
+# Target rules for targets named task5_09_10
+
+# Build rule for target.
+task5_09_10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task5_09_10
+.PHONY : task5_09_10
+
+# fast build rule for target.
+task5_09_10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task5_09_10.dir/build.make CMakeFiles/task5_09_10.dir/build
+.PHONY : task5_09_10/fast
+
+#=============================================================================
 # Target rules for targets named task5_10_01
 
 # Build rule for target.
@@ -637,6 +650,30 @@ benchmark_main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task5_09_09.dir/build.make CMakeFiles/task5_09_09.dir/09_09.cpp.s
 .PHONY : 09_09.cpp.s
 
+09_10.o: 09_10.cpp.o
+.PHONY : 09_10.o
+
+# target to build an object file
+09_10.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task5_09_10.dir/build.make CMakeFiles/task5_09_10.dir/09_10.cpp.o
+.PHONY : 09_10.cpp.o
+
+09_10.i: 09_10.cpp.i
+.PHONY : 09_10.i
+
+# target to preprocess a source file
+09_10.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task5_09_10.dir/build.make CMakeFiles/task5_09_10.dir/09_10.cpp.i
+.PHONY : 09_10.cpp.i
+
+09_10.s: 09_10.cpp.s
+.PHONY : 09_10.s
+
+# target to generate assembly for a file
+09_10.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task5_09_10.dir/build.make CMakeFiles/task5_09_10.dir/09_10.cpp.s
+.PHONY : 09_10.cpp.s
+
 10_01.o: 10_01.cpp.o
 .PHONY : 10_01.o
 
@@ -830,6 +867,7 @@ help:
 	@echo "... task5_09_07"
 	@echo "... task5_09_08"
 	@echo "... task5_09_09"
+	@echo "... task5_09_10"
 	@echo "... task5_10_01"
 	@echo "... task5_10_03"
 	@echo "... task5_10_04"
@@ -864,6 +902,9 @@ help:
 	@echo "... 09_09.o"
 	@echo "... 09_09.i"
 	@echo "... 09_09.s"
+	@echo "... 09_10.o"
+	@echo "... 09_10.i"
+	@echo "... 09_10.s"
 	@echo "... 10_01.o"
 	@echo "... 10_01.i"
 	@echo "... 10_01.s"

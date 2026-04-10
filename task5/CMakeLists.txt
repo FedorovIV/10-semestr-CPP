@@ -26,6 +26,7 @@ add_executable(task5_09_06 09_06.cpp)
 add_executable(task5_09_07 09_07.cpp)
 add_executable(task5_09_08 09_08.cpp)
 add_executable(task5_09_09 09_09.cpp)
+add_executable(task5_09_10 09_10.cpp)
 add_executable(task5_10_01 10_01.cpp)
 add_executable(task5_10_03 10_03.cpp)
 add_executable(task5_10_04 10_04.cpp)
@@ -44,6 +45,7 @@ foreach(target
     task5_09_07
     task5_09_08
     task5_09_09
+    task5_09_10
     task5_10_01
     task5_10_03
     task5_10_04
