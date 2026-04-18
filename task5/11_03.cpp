@@ -110,3 +110,6 @@ int main()
     std::cout << "best cost: " << result.cost << '\n';
     return 0;
 }
+
+// 11-03 is about comparison function 
+// Need to resubmit

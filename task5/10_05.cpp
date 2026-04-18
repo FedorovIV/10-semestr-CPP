@@ -46,3 +46,5 @@ int main()
     std::cout << "10.05: " << longest_common_substring("mississippi", "issip") << '\n';
     return 0;
 }
+
+// 10-05 is about hashing
