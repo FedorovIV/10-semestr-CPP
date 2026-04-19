@@ -21,6 +21,7 @@ cmake --build "${BUILD_DIR}" -j
 "${BUILD_DIR}/task5_10_03"
 "${BUILD_DIR}/task5_10_04"
 "${BUILD_DIR}/task5_10_05"
+python3 "${SCRIPT_DIR}/10_05_plot.py" "${SCRIPT_DIR}/10_05_collisions.csv" "${SCRIPT_DIR}/10_05_collisions.png"
 "${BUILD_DIR}/task5_10_06"
 "${BUILD_DIR}/task5_11_01"
 "${BUILD_DIR}/task5_11_03"

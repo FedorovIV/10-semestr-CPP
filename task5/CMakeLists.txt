@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.20)
 
 project(task5 LANGUAGES CXX)
 
+include(CheckCXXSourceCompiles)
+
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
@@ -60,3 +62,20 @@ endforeach()
 target_link_libraries(task5_09_06 PRIVATE Boost::filesystem Boost::system)
 target_link_libraries(task5_10_06 PRIVATE Boost::filesystem Boost::system)
 target_link_libraries(task5_09_09 PRIVATE benchmark::benchmark)
+
+target_compile_options(task5_10_05 PRIVATE -O3)
+
+unset(TASK5_10_05_HAS_M32 CACHE)
+set(CMAKE_REQUIRED_QUIET ON)
+set(CMAKE_REQUIRED_FLAGS "-m32")
+check_cxx_source_compiles("int main() { return 0; }" TASK5_10_05_HAS_M32)
+unset(CMAKE_REQUIRED_FLAGS)
+unset(CMAKE_REQUIRED_QUIET)
+
+if(TASK5_10_05_HAS_M32)
+    target_compile_options(task5_10_05 PRIVATE -m32)
+    target_link_options(task5_10_05 PRIVATE -m32)
+    target_compile_definitions(task5_10_05 PRIVATE TASK5_10_05_M32_ENABLED=1)
+else()
+    message(WARNING "task5_10_05: -m32 is unavailable in this environment; building without it")
+endif()
