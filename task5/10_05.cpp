@@ -503,3 +503,5 @@ int main(int argc, char* argv[])
         return 2;
     }
 }
+
+// 10-05 is about hashing
